@@ -1,0 +1,13 @@
+{
+"  ""type"": ""service_account"","
+"  ""project_id"": ""burner-ettreddy"","
+"  ""private_key_id"": ""xxxxxxxxxxxxxxxxx"","
+"  ""private_key"": "" xxxxxxxx"","
+"  ""client_email"": ""sampath-reddy-burner-full-acce@burner-ettreddy.iam.gserviceaccount.com"","
+"  ""client_id"": ""xxxxxxxxxxxxx"","
+"  ""auth_uri"": ""https://accounts.google.com/o/oauth2/auth"","
+"  ""token_uri"": ""https://oauth2.googleapis.com/token"","
+"  ""auth_provider_x509_cert_url"": ""https://www.googleapis.com/oauth2/v1/certs"","
+"  ""client_x509_cert_url"": ""https://www.googleapis.com/robot/v1/metadata/x509/sampath-reddy-burner-full-acce%40burner-ettreddy.iam.gserviceaccount.com"""
+}
+  

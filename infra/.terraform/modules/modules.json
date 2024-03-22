@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"create_firewall_rule","Source":"../module/firewall","Dir":"../module/firewall"},{"Key":"create_vpc","Source":"../module/network","Dir":"../module/network"},{"Key":"","Source":"","Dir":"."},{"Key":"gcp_gce_template_creation","Source":"../module/instance-template-v2","Dir":"../module/instance-template-v2"}]}
