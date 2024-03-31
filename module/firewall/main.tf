@@ -14,19 +14,19 @@ resource "google_compute_firewall" "gce_allow_tcp_firewall" {
 
 }
 
-# resource "google_compute_firewall" "gce_allow_health_check_probe" {
-#   name    = "allow-health-check"
-#   network = "test-vpc"
-#   # direction = var.firewall_direction
-#   priority = var.firewall_priority
-#   direction = var.firewall_direction
-#   source_ranges = ["130.211.0.0/22","35.191.0.0/16"]
+resource "google_compute_firewall" "gce_allow_health_check_probe" {
+  name    = "allow-health-check"
+  network = "test-vpc"
+  # direction = var.firewall_direction
+  priority = var.firewall_priority
+  direction = var.firewall_direction
+  source_ranges = ["130.211.0.0/22","35.191.0.0/16"]
 
-#   allow {
-#     protocol = "tcp"
-#     ports    = ["80"]
-#   }
+  allow {
+    protocol = "tcp"
+    ports    = ["80"]
+  }
 
-#   # target_tags = ["allow-health-check"]
+  # target_tags = ["allow-health-check"]
 
-# }
+}
